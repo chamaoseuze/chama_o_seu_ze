@@ -218,14 +218,15 @@ main {
     background-color: #a34100;
 }
 
-.caixas > h4, p{
-    padding-left: 30px;
+.caixas > h4 {
+    padding: 10px 0px 15px 30px;
 }
 
 .caixas > img {
     width: 25px;
     height: 25px;
     position: absolute;
+    margin-top: 9px;
 }
 
 /*---------------------------------------------------------*/
@@ -309,4 +310,14 @@ footer {
 .caixas {
     cursor: pointer;
     user-select: none;
+}
+
+.caixas_conteudo {
+    display: none;
+    padding: 10px;
+    border-top: none;
+}
+
+.caixas_titulo {
+    padding: 10px;
 }
