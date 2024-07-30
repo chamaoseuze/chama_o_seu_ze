@@ -197,7 +197,7 @@ footer {
     justify-content: space-between;
     width: 45%;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #cont_rodape {
@@ -228,6 +228,14 @@ footer {
     text-decoration: none;
     font-size: 13px;
     color: var(--cor2);
+}
+
+#redes_sociais {
+    flex-direction: row;
+}
+
+#redes_sociais > a > img {
+    margin: 60px 15px 0px 0px;
 }
 
 #traco {
