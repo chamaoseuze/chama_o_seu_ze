@@ -157,10 +157,11 @@ main {
 
     padding: 20px 30px;
     border-radius: 30px;
+    margin-top: 50px;
 }
 
 .comp_conteudo {
-    width: 270px;
+    width: 295px;
     display: flex;
     flex-direction: column;
 }
@@ -182,22 +183,25 @@ main {
     color: var(--cor5);
     font-size: 18px;
     line-height: 25px;
+
+    width: 270px;
 }
 
 .comp_conteudo > a {
     background-color: var(--cor1);
     color: var(--cor2);
     text-decoration: none;
+    font-weight: bolder;
 
     padding: 20px 30px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /*---------------------------------------------------------*/
 
 footer {
-    background-color: var(--cor0);
+    background-color: var(--cor6);
     padding: 60px 0px 10px 0px;
 }
 
