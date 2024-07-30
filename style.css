@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
-/*Fonte: Roboto Medium*/
-
-/*Cores: 
-        Azul: 1c326e
-        Laranja: ff6501
-        Branco: ffffff
-        Cinza: e4dfdb
-        Cinza fundo main: e7e7e7
-        Preto: 292929
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     --cor0: #1c326e;
@@ -19,8 +9,9 @@
     --cor3: #e4dfdb;
     --cor4: #e7e7e7;
     --cor5: #292929;
+    --cor6: #2a4699;
 
-    --fontepadrao: Arial;
+    --fontepadrao: 'Roboto';
 }
 
 * {
@@ -31,6 +22,7 @@
 
 body {
     background-color: var(--cor0);
+    font-family: var(--fontepadrao);
 }
 
 /*---------------------------------------------------------*/
@@ -40,7 +32,7 @@ header {
     justify-content: center;
     align-items: center;
     
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 header > nav {
@@ -52,6 +44,7 @@ header > nav > a {
 
     text-decoration: none;
     color: var(--cor3);
+    font-weight: 700;
 }
 
 header > nav > a:hover {
@@ -74,12 +67,13 @@ header > nav > a:hover {
 }
 
 #inicio > article {
-    width: 40%;
+    width: 32%;
 }
 
 #inicio > article > h1 {
-    color: var(--cor0);
+    color: var(--cor6);
     padding-bottom: 40px;
+    font-size: 3em;
 }
 
 #inicio > article > h1 > strong {
@@ -88,6 +82,9 @@ header > nav > a:hover {
 
 #inicio > article > p {
     color: var(--cor5);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 /*---------------------------------------------------------*/
@@ -198,7 +195,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -206,11 +203,14 @@ footer {
 #cont_rodape {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 290px;
 }
 
 #cont_rodape > p {
     color: var(--cor2);
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 #links_rodape {
@@ -220,10 +220,13 @@ footer {
 
 #links_rodape > h6 {
     color: var(--cor1);
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 #links_rodape > a {
     text-decoration: none;
+    font-size: 13px;
     color: var(--cor2);
 }
 
@@ -237,9 +240,14 @@ footer {
 #final {
     padding-top: 30px;
     margin: auto;
-    width: 450px;
+    width: 368px;
+    text-align: justify;
 }
 
 #final > p {
     color: var(--cor2);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    font-style: italic;
 }
