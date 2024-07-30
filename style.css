@@ -64,7 +64,7 @@ header > nav > a:hover {
 
 #inicio > #centralizar > article {
     width: 35%;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 #inicio > #centralizar > article > h1 {
@@ -168,6 +168,10 @@ main {
     margin-top: 50px;
 }
 
+.conteudo > a:hover {
+    background-color: #a34100;
+}
+
 .comp_conteudo {
     width: 295px;
     display: flex;
@@ -196,7 +200,7 @@ main {
     font-size: 18px;
     line-height: 25px;
 
-    width: 270px;
+    width: 300px;
 }
 
 .comp_conteudo > a {
@@ -208,6 +212,20 @@ main {
     padding: 20px 30px;
     border-radius: 30px;
     margin-top: 50px;
+}
+
+.comp_conteudo > a:hover {
+    background-color: #a34100;
+}
+
+.caixas > h4, p{
+    padding-left: 30px;
+}
+
+.caixas > img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
 }
 
 /*---------------------------------------------------------*/
@@ -284,4 +302,11 @@ footer {
     font-weight: 300;
     line-height: 25px;
     font-style: italic;
+}
+
+/*--------------------------Para o JavaScript--------------------------*/
+
+.caixas {
+    cursor: pointer;
+    user-select: none;
 }
