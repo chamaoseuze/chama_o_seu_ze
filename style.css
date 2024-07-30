@@ -58,7 +58,7 @@ header > nav > a:hover {
 
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     margin: auto;
     width: 75%;
     padding: 50px;
@@ -171,6 +171,10 @@ main {
     width: 200px;
     background-color: var(--cor1);
     margin-bottom: 15px;
+}
+
+.comp_conteudo > img {
+    border-radius: 10px;
 }
 
 .comp_conteudo > h5 {
