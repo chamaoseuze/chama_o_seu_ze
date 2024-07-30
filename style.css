@@ -157,6 +157,8 @@ main {
 
 .comp_conteudo {
     width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .linha {
@@ -182,6 +184,62 @@ main {
 
     padding: 20px 30px;
     border-radius: 30px;
+    margin-top: 20px;
 }
 
 /*---------------------------------------------------------*/
+
+footer {
+    background-color: var(--cor0);
+    padding: 60px 0px 10px 0px;
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#cont_rodape {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+#cont_rodape > p {
+    color: var(--cor2);
+}
+
+#links_rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+#links_rodape > h6 {
+    color: var(--cor1);
+}
+
+#links_rodape > a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+#traco {
+    height: 1px;
+    width: 80%;
+    background-color: var(--cor3);
+    margin: auto;
+}
+
+#final {
+    padding-top: 30px;
+    margin: auto;
+    width: 450px;
+}
+
+#final > p {
+    color: var(--cor2);
+}
