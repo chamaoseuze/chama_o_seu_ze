@@ -21,7 +21,6 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color: var(--cor0);
     font-family: var(--fontepadrao);
 }
