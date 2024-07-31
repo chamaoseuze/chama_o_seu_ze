@@ -26,6 +26,7 @@ html {
 
 body {
     width: 100vw;
+    overflow: hidden;
     background-color: var(--cor0);
     font-family: var(--fontepadrao);
 }
