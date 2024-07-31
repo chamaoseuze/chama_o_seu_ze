@@ -159,6 +159,14 @@
     #redes_sociais > a > img {
         margin: 30px 15px 0px 0px;
     }
+
+    #final {
+        text-align: center;
+    }
+
+    #final > p {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {
