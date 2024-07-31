@@ -48,12 +48,12 @@ header > nav > a {
     padding: 0px 40px;
 
     text-decoration: none;
-    color: var(--cor1);
+    color: var(--cor3);
     font-weight: 700;
 }
 
 header > nav > a:hover {
-    color: var(--cor3);
+    color: var(--cor2);
 }
 
 /*---------------------------------------------------------*/
