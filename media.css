@@ -160,6 +160,10 @@
         color: var(--cor2);
     }
 
+    #links_rodape > p {
+        text-align: center;
+    }
+
     #redes_sociais > a > img {
         margin: 30px 15px 0px 0px;
     }
@@ -305,6 +309,10 @@
         color: var(--cor2);
     }
 
+    #links_rodape > p {
+        text-align: center;
+    }
+
     #redes_sociais > a > img {
         margin: 30px 15px 0px 0px;
     }
@@ -373,6 +381,10 @@
         text-decoration: none;
         font-size: 13px;
         color: var(--cor2);
+    }
+
+    #links_rodape > p {
+        text-align: center;
     }
 
     #redes_sociais > a > img {
