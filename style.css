@@ -109,12 +109,11 @@ main {
 
 .topicos {
     padding: 50px 0px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 44%;
-    margin: 0 auto;
-    grid-gap: 80px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 44%;
+    margin: auto;
 }
 
 .conteudo {
@@ -122,7 +121,6 @@ main {
     align-items: start;
     justify-content: left;
     flex-direction: column;
-
 }
 
 .conteudo > h2 {
