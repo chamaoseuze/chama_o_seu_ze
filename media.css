@@ -106,8 +106,7 @@
     }
 
     .comp_conteudo {
-        margin-top: -35px;
-        margin-bottom: 60px;
+        margin: 50px 0px 55px 0px;
         width: 295px;
         display: flex;
         flex-direction: column;
