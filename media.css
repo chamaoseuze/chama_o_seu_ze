@@ -314,6 +314,20 @@
         padding: 15px 0px 0px 15px;
     }
 
+    #ods {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    #ods > p {
+        color: var(--cor2);
+        font-weight: 300;
+        line-height: 25px;
+        padding: 15px 0px 0px 15px;
+    }
+
     #links_rodape > h6 {
         color: var(--cor1);
         font-size: 0px;
@@ -382,6 +396,20 @@
     }
 
     #cont_rodape > p {
+        color: var(--cor2);
+        font-weight: 300;
+        line-height: 25px;
+        padding: 15px 0px 0px 15px;
+    }
+
+    #ods {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    #ods > p {
         color: var(--cor2);
         font-weight: 300;
         line-height: 25px;
