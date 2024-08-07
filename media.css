@@ -164,6 +164,7 @@
     #links_rodape > p {
         text-align: center;
         text-decoration: none;
+        color: white !important;
     }
 
     #redes_sociais > a > img {
