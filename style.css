@@ -254,7 +254,7 @@ footer {
 
 #rodape {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
     width: 45%;
     margin: auto;
@@ -272,6 +272,24 @@ footer {
     font-weight: 300;
     line-height: 25px;
     padding-top: 20px;
+}
+
+#ods {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+
+#ods > p {
+    color: var(--cor2);
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 20px;
+    margin-top: 4px;
+}
+
+#ods > img {
+    border-radius: 10px;
 }
 
 #links_rodape {
