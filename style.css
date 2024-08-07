@@ -356,6 +356,11 @@ footer {
     font-style: italic;
 }
 
+#final > p, p:visited {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
 /*--------------------------Para o JavaScript--------------------------*/
 
 .caixas {
