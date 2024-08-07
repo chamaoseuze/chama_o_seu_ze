@@ -151,7 +151,7 @@ main {
     padding: 10px 20px;
 }
 
-.conteudo > div > h4 {
+.cont_caixas > h4 {
     color: var(--cor6);
     font-size: 17px;
 }
@@ -226,15 +226,23 @@ main {
     background-color: #a34100;
 }
 
-.caixas > h4 {
-    padding: 10px 0px 15px 30px;
+.cont_caixas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.caixas > img {
+.icones {
+    position: absolute;
+}
+
+.cont_caixas > h4 {
+    padding: 16px 0px 15px 35px;
+}
+
+.cont_caixas > img {
     width: 25px;
     height: 25px;
-    position: absolute;
-    margin-top: 9px;
 }
 
 /*---------------------------------------------------------*/
