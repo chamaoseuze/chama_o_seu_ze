@@ -119,6 +119,7 @@
         padding: 20px 30px;
         border-radius: 30px;
         margin-top: 20px;
+        text-align: center;
     }
 
     /*---------------------------------------------------------*/
@@ -162,6 +163,7 @@
 
     #links_rodape > p {
         text-align: center;
+        text-decoration: none;
     }
 
     #redes_sociais > a > img {
@@ -174,6 +176,7 @@
 
     #final > p {
         font-size: 12px;
+        text-decoration: none;
     }
 }
 

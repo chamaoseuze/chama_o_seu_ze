@@ -125,14 +125,14 @@ main {
 
 .conteudo > h2 {
     color: var(--cor6);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 45px;
 }
 
 .conteudo > h3 {
     color: var(--cor5);
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .conteudo > p {
@@ -156,11 +156,13 @@ main {
     font-size: 17px;
 }
 
-.conteudo > div > p {
-    color: var(--cor5);
-    font-size: 14px;
+.caixas_conteudo > p {
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
 }
 
+/*
 .conteudo > a {
     background-color: var(--cor1);
     color: var(--cor2);
@@ -175,6 +177,7 @@ main {
 .conteudo > a:hover {
     background-color: #a34100;
 }
+*/
 
 .comp_conteudo {
     width: 295px;
@@ -216,6 +219,7 @@ main {
     padding: 20px 30px;
     border-radius: 30px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .comp_conteudo > a:hover {
