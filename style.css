@@ -304,7 +304,7 @@ footer {
 }
 
 #links_rodape > a {
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 13px;
     color: var(--cor2);
 }
@@ -313,6 +313,7 @@ footer {
     margin-top: 10px;
     font-size: 13px;
     color: var(--cor2);
+    text-decoration: none !important;
 }
 
 #redes_sociais {
