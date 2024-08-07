@@ -309,19 +309,9 @@ footer {
     color: var(--cor2);
 }
 
-#links_rodape > a, a:visited {
-    color: var(--cor2);
-    text-decoration: none;
-}
-
 #links_rodape > p {
     margin-top: 10px;
     font-size: 13px;
-    color: var(--cor2);
-    text-decoration: none;
-}
-
-#links_rodape > p, p:visited {
     color: var(--cor2);
     text-decoration: none;
 }
@@ -354,11 +344,6 @@ footer {
     font-weight: 300;
     line-height: 25px;
     font-style: italic;
-}
-
-#final > p, p:visited {
-    color: var(--cor2);
-    text-decoration: none;
 }
 
 /*--------------------------Para o JavaScript--------------------------*/
