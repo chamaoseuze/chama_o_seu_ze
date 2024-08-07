@@ -304,16 +304,26 @@ footer {
 }
 
 #links_rodape > a {
-    text-decoration: none !important;
+    text-decoration: none;
     font-size: 13px;
     color: var(--cor2);
+}
+
+#links_rodape > a, a:visited {
+    color: var(--cor2);
+    text-decoration: none;
 }
 
 #links_rodape > p {
     margin-top: 10px;
     font-size: 13px;
     color: var(--cor2);
-    text-decoration: none !important;
+    text-decoration: none;
+}
+
+#links_rodape > p, p:visited {
+    color: var(--cor2);
+    text-decoration: none;
 }
 
 #redes_sociais {

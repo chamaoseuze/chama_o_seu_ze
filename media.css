@@ -178,7 +178,7 @@
     #links_rodape > p {
         text-align: center;
         text-decoration: none;
-        color: white !important;
+        color: white;
     }
 
     #redes_sociais > a > img {
