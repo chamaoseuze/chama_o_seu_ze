@@ -193,6 +193,16 @@
         font-size: 12px;
         text-decoration: none;
     }
+
+    /*---------------------------ORDEM MOBILE------------------------------*/
+
+    .position {
+        order: 0;
+    }
+
+    .conteudo {
+        order: 1;
+    }
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {

@@ -109,11 +109,13 @@ main {
 
 .topicos {
     padding: 50px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 44%;
     margin: auto;
+    
+    display: grid;
+    gap: 20px 80px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .conteudo {
@@ -179,10 +181,13 @@ main {
 }
 */
 
+
 .comp_conteudo {
     width: 295px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
+    margin: auto;
 }
 
 .linha {
@@ -210,6 +215,7 @@ main {
     width: 300px;
 }
 
+/*
 .comp_conteudo > a {
     background-color: var(--cor1);
     color: var(--cor2);
@@ -221,9 +227,26 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+*/
 
 .comp_conteudo > a:hover {
     background-color: #a34100;
+}
+
+.ancora {
+    grid-column: 2;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ancora > a {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bolder;
+
+    padding: 20px 30px;
+    border-radius: 30px;
 }
 
 .cont_caixas {
